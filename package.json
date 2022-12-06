@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/main.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadirozsoy/Natours.git"
+  },
+  "author": "Nadir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadirozsoy/Natours/issues"
+  },
+  "homepage": "https://github.com/nadirozsoy/Natours#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
