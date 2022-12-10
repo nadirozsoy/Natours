@@ -38,7 +38,8 @@
 
 html {
   // This defines what 1rem is
-  font-size: 62.5%;
+  // clamp(4.5px, 0.8vw, 14px)
+  font-size: clamp(4.5px, 0.8vw, 14px);
 }
 
 body {
