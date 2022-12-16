@@ -15,10 +15,15 @@
   background-position: top;
   padding: 20rem 0;
   transform: skewY(-7deg);
-  cursor: pointer;
   margin-top: -15vh;
 
   & > * {
     transform: skewY(7deg);
   }
+}
+
+.section-tours {
+  margin-top: -10rem;
+  background-color: $color-grey-light-1;
+  padding: 25rem 0 15rem 0;
 }

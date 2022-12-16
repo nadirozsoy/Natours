@@ -3,8 +3,9 @@
   font-size: $default-font-size;
   padding: 2.5rem;
   border-radius: 3px;
-  box-shadow: $feature-box-shadow;
-  transition: $short-transition;
+  box-shadow: $shadow-6;
+  transition: $transition-1;
+  cursor: pointer;
 
   &__icon {
     font-size: 6rem;

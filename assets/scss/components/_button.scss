@@ -6,14 +6,14 @@
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
-    transition: $short-transition;
+    transition: $transition-1;
     position: relative;
     font-size: $default-font-size;
   }
 
   &:hover {
     transform: translateY(-3px);
-    box-shadow: $hover-box-shadow;
+    box-shadow: $shadow-1;
 
     &::after {
       transform: scaleX(1.4) scaleY(1.6);
@@ -23,7 +23,7 @@
 
   &:active {
     transform: translateY(1px);
-    box-shadow: $active-box-shadow;
+    box-shadow: $shadow-2;
   }
 
   &::after {
@@ -36,7 +36,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    transition: $long-transition;
+    transition: $transition-2;
   }
 
   &--white {
@@ -45,6 +45,15 @@
 
     &::after {
       background-color: $color-white;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
     }
   }
 
@@ -99,6 +108,6 @@
 
   &:active {
     transform: translateY(1px);
-    box-shadow: $active-box-shadow;
+    box-shadow: $shadow-2;
   }
 }

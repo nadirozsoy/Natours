@@ -5,20 +5,26 @@ $thumbBG-hover: #90a4ae;
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
 $color-grey-dark: #777;
 $color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
 $color-white: #fff;
 $color-black: #000;
 
-$hover-box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
-$active-box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
-$text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
-$photo-shadow: 0 1.5rem 4rem rgba($color-black, 0.5);
-$photo-dark-shadow: 0 2.5rem 4rem rgba($color-black, 0.9);
-$feature-box-shadow: 0 1.75rem 4rem rgba($color-black, 0.3);
+$shadow-1: 0 1rem 2rem rgba($color-black, 0.2);
+$shadow-2: 0 0.5rem 1rem rgba($color-black, 0.2);
+$shadow-3: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+$shadow-4: 0 1.5rem 4rem rgba($color-black, 0.5);
+$shadow-5: 0 2.5rem 4rem rgba($color-black, 0.9);
+$shadow-6: 0 1.75rem 4rem rgba($color-black, 0.3);
 
-$short-transition: all 0.2s;
-$long-transition: all 0.4s;
+$transition-1: all 0.2s;
+$transition-2: all 0.4s;
+$transition-3: all 0.8s ease;
 
 //FONT
 $default-font-size: 1.6rem;

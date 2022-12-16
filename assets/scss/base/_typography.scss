@@ -43,12 +43,12 @@ body {
   );
   -webkit-background-clip: text;
   color: transparent;
-  transition: $short-transition;
+  transition: $transition-1;
   letter-spacing: 0.2rem;
 
   &:hover {
     transform: skewY(5deg) skewX(15deg) scale(1.1);
-    text-shadow: $text-shadow;
+    text-shadow: $shadow-3;
   }
 }
 
