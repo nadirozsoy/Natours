@@ -75,7 +75,7 @@
       width: 1.3rem;
       border-radius: 50%;
       position: absolute;
-      @include centerHorizantalVertical;
+      @include absCenter;
       background-color: $color-primary;
       opacity: 0;
       transition: $transition-2;
