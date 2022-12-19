@@ -152,9 +152,7 @@
 
   //BACK SIDE STYLING
   &__cta {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include centerHorizantalVertical;
     width: 90%;
   }
 
