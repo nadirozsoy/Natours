@@ -2,8 +2,10 @@
   background-color: $color-grey-dark-3;
   padding: 10rem 0;
   font-size: 1.4rem;
+  color: $color-grey-light-1;
 
   &__logo-box {
+    margin-bottom: 8rem;
   }
 
   &__logo {
@@ -12,14 +14,52 @@
   }
 
   &__nav {
+    border-top: 1px solid $color-grey-light-1;
+    display: inline-block;
+    padding-top: 2rem;
   }
 
   &__list {
+    list-style: none;
   }
 
   &__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
   }
 
   &__link {
+    &:link,
+    &:visited {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $color-grey-light-1;
+      background-color: $color-grey-dark-3;
+      display: inline-block;
+      transition: $transition-1;
+    }
+
+    &:hover,
+    &:active {
+      box-shadow: $shadow-1;
+      transform: rotate(10deg) scale(1.1);
+      background-image: linear-gradient(
+        to right,
+        $color-primary-light,
+        $color-primary-dark
+      );
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+  }
+
+  &__copyright {
+    border-top: 1px solid $color-grey-light-1;
+    display: flex;
+    padding-top: 2rem;
+    width: 80%;
   }
 }
