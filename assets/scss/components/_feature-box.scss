@@ -2,7 +2,7 @@
   background-color: rgba($color-white, 0.8);
   font-size: $default-font-size;
   padding: 2.5rem;
-  border-radius: 3px;
+  border-radius: $radius-1;
   box-shadow: $shadow-6;
   transition: $transition-1;
   cursor: pointer;

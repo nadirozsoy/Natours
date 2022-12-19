@@ -10,7 +10,7 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: $radius-1;
     transition: $transition-3;
     overflow: hidden;
     box-shadow: $shadow-4;

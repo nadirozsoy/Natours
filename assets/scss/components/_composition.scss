@@ -2,7 +2,7 @@
   &__photo {
     width: 55%;
     box-shadow: $shadow-4;
-    border-radius: 5px;
+    border-radius: $radius-1;
     z-index: 10;
     transition: $transition-1;
     outline-offset: 2rem;
