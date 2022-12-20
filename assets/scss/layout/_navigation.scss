@@ -14,6 +14,16 @@
     z-index: 2000;
     box-shadow: $shadow-1;
     cursor: pointer;
+
+    @include respond(tab-port) {
+      top: 4rem;
+      right: 4rem;
+    }
+
+    @include respond(phone) {
+      top: 3rem;
+      right: 3rem;
+    }
   }
 
   &__background {
@@ -29,6 +39,16 @@
     right: 6.5rem;
     z-index: 1000;
     transition: $transition-4;
+
+    @include respond(tab-port) {
+      top: 4.5rem;
+      right: 4.5rem;
+    }
+
+    @include respond(phone) {
+      top: 3.5rem;
+      right: 3.5rem;
+    }
   }
 
   &__nav {
@@ -47,6 +67,10 @@
     list-style: none;
     @include absCenter;
     text-align: center;
+
+    @include respond(phone) {
+      width: 92%;
+    }
   }
 
   &__item {
@@ -106,7 +130,7 @@
     &::before,
     &::after {
       width: 3rem;
-      height: 0.2rem;
+      height: 2px;
       background-color: $color-grey-dark-3;
       display: inline-block;
     }

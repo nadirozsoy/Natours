@@ -24,6 +24,10 @@
 
 .mb-lg {
   margin-bottom: 8rem;
+
+  @include respond(tab-port) {
+    margin-bottom: 6rem;
+  }
 }
 
 .mt-lg {
