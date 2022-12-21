@@ -4,7 +4,11 @@
   margin-top: -20vh;
 
   @include respond(tab-port) {
-    padding: 20rem 0;
+    padding: 20rem 0 60rem 0;
+  }
+
+  @include respond(phone) {
+    padding: 20rem 0 55rem 0;
   }
 }
 
@@ -38,6 +42,10 @@
   @include respond(tab-port) {
     padding: 20rem 0 10rem 0;
   }
+
+  @include respond(phone) {
+    padding: 20rem 0 5rem 0;
+  }
 }
 
 .section-stories {
@@ -45,6 +53,10 @@
 
   @include respond(tab-port) {
     padding: 10rem 0 5rem 0;
+  }
+
+  @include respond(phone) {
+    padding: 5rem 0 5rem 0;
   }
 }
 
@@ -71,14 +83,40 @@
     url('/assets/img/nat-10.jpg');
   background-size: 100%;
   border-radius: $radius-1;
-  height: 50rem;
   box-shadow: $shadow-4;
 
+  @include respond(tab-land) {
+    background-image: linear-gradient(
+        105deg,
+        rgba($color-white, 0.8) 0%,
+        rgba($color-white, 0.8) 65%,
+        transparent 65%
+      ),
+      url('/assets/img/nat-10.jpg');
+    background-size: cover;
+  }
+
   @include respond(tab-port) {
+    background-image: linear-gradient(
+        to right,
+        rgba($color-white, 0.8) 0%,
+        rgba($color-white, 0.8) 100%,
+        transparent 100%
+      ),
+      url('/assets/img/nat-10.jpg');
+    background-size: cover;
   }
 
   &__form {
     width: 50%;
     padding: 6rem;
+
+    @include respond(tab-land) {
+      width: 70%;
+    }
+
+    @include respond(tab-port) {
+      width: 100%;
+    }
   }
 }
