@@ -1,15 +1,20 @@
 <div align="Center">
 
-![logo](/assets/img/logo-green-small-2x.png)
+![logo](/assets/img/logo-green-1x.png)
 
 </div>
 
-- Responsive Natours Website Using HTML, SASS
+- Natours Website Using HTML,CSS,SASS
+- 7-1 Sass Architecture
+- Developed BEM with the desktop BEM methodology, then for mobile.
+- Responsive design-Maintainable and scalable code-Web performance.
+- Responsive images for Web performance.
+- Resolution switching-Density switching-Art direction.
 - Contains animations when clicking.
 - Smooth scrolling in each section.
-- Developed BEM with the desktop BEM methodology, then for mobile.
+- Used the linea-basic.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
-#### If you want to maintain the project and use sass:
+##### If you want to maintain the project and use sass:
 
 ```js
 npm install 
