@@ -9,18 +9,24 @@
 - Developed BEM with the desktop BEM methodology, then for mobile.
 - Responsive design-Maintainable and scalable code-Web performance.
 - Responsive images for Web performance.
+- Prefix implemented, to make it work properly in certain browsers.
+- Compression has been applied for Web performance.
 - Resolution switching-Density switching-Art direction.
 - Contains animations when clicking.
 - Smooth scrolling in each section.
 - Used the linea-basic.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
-##### If you want to maintain the project and use sass:
 
-```js
-npm install 
+- [CLICK](https://natours-nadirozsoy.vercel.app/) for live demo
 
-npm run compile:sass
-```
+------------
+
+<div align="Center">
+
+## Screenshots
+
+
+</div>
 
 ![preview-1](screenshots/Preview-1.png)
 
