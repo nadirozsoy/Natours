@@ -25,6 +25,15 @@
   transform: skewY(-7deg);
   margin-top: -15vh;
 
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
+      ),
+      url('/assets/img/nat-4-large.jpg');
+  }
+
   & > * {
     transform: skewY(7deg);
   }
@@ -84,6 +93,16 @@
   background-size: 100%;
   border-radius: $radius-1;
   box-shadow: $shadow-4;
+
+  @media (min-resolution: 192dpi) and (min-width: 75em), (min-width: 125em) {
+    background-image: linear-gradient(
+        105deg,
+        rgba($color-white, 0.8) 0%,
+        rgba($color-white, 0.8) 50%,
+        transparent 50%
+      ),
+      url('/assets/img/nat-10-large.jpg');
+  }
 
   @include respond(tab-land) {
     background-image: linear-gradient(
